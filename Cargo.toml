@@ -1,0 +1,13 @@
+[package]
+name = "repro-napi-20230614"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+name = "addon"
+
+[dependencies]
+napi = "2.13.2"
+napi-build = "2.0.1"
+napi-derive = "2.13.0"
