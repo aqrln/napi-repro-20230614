@@ -9,5 +9,7 @@ name = "addon"
 
 [dependencies]
 napi = { version = "2.13.2", features = ["napi8", "tokio_rt", "serde-json"] }
-napi-build = "2.0.1"
 napi-derive = "2.13.0"
+
+[build-dependencies]
+napi-build = "2.0.1"
